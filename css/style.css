@@ -1,0 +1,80 @@
+/************* UTILITIES *******/
+
+/* TEXT ALIGN */
+
+.t-a-left {
+	text-align: left;
+}
+
+.t-a-right {
+	text-align: right;
+}
+
+/********* STYLE  **************/
+
+/* MAIN-HEADER */
+
+section.main-header {
+	width: 100%;
+	position: fixed;
+	background: #fff;
+	height: 80px;
+	line-height: 80px;
+	color: #3a8aff;
+}
+
+section.main-header .col-xs-6 {
+	height: 80px;
+	line-height: 80px;
+	padding: 0 15px 0 0;
+}
+
+section.main-header .col-xs-6:first-child img {
+	width: 150px;
+	display: inline-block;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+section.main-header .col-md-5 .menu-inline {
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+
+section.main-header .col-md-5 .menu-inline li a i {
+	margin-left: 5px;
+}
+
+section.main-header .col-md-5 .menu-inline li {
+	margin-right: 10px;
+}
+
+section.main-header .col-md-5 .menu-inline li a {
+	display: none;
+}
+
+section.main-header .col-md-5 .menu-inline li a i.fa-chevron-down {
+	vertical-align: middle;
+}
+/* hamburger menu */
+
+.fa-bars {
+	display: inline-block;
+	font-size: 20px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+/* HERO */
+
+.hero {
+	background: red;
+	height: 2000px;
+}

@@ -1,0 +1,15 @@
+/* min-width: MEDIUM */
+
+@media screen and (min-width: 992px) {
+	section.main-header .col-xs-6:nth-child(2) {
+		visibility: hidden;
+		display: none;
+	}
+
+	section.main-header .col-md-5 .menu-inline,
+	section.main-header .col-md-5 .menu-inline li,
+	section.main-header .col-md-5 .menu-inline li a {
+		display: inline-block;
+		visibility: visible;
+	}
+}
