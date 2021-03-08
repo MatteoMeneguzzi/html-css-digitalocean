@@ -6,9 +6,9 @@
 		display: none;
 	}
 
-	section.main-header .col-md-5 .menu-inline,
-	section.main-header .col-md-5 .menu-inline li,
-	section.main-header .col-md-5 .menu-inline li a {
+	section.main-header .menu-inline,
+	section.main-header .menu-inline li,
+	section.main-header .menu-inline li a {
 		display: inline-block;
 		visibility: visible;
 	}
