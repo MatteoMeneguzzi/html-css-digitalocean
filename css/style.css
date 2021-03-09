@@ -147,8 +147,6 @@ section.main-header .container .col-md-4 .menu-inline li:last-child a.btn-do {
 	color: #016dff;
 }
 /* hamburger menu */
-.main-header .container .col-xs-6:nth-child(2) {
-}
 
 .main-header .container .col-xs-6:nth-child(2) .fa-bars {
 	display: inline-block;
@@ -251,7 +249,7 @@ section.partners .container .row .box img {
 	height: 150px;
 }
 
-section.partners.container.row.box: img section.partners a.t-a-center i {
+section.partners a.t-a-center i {
 	vertical-align: 0px;
 	font-size: 11px;
 }
@@ -293,5 +291,5 @@ section.start {
 /* COPY */
 
 section.copy {
-	background: color: #031c4e;
+	background: #031c4e;
 }
