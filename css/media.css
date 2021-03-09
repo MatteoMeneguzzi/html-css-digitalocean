@@ -1,3 +1,14 @@
+/* min-width: SMALL */
+
+@media screen and (min-width: 768px) {
+	.col-sm-2 {
+		padding: 0;
+	}
+
+	section.partners .container .col-xs-12 {
+		padding: 0px 5px 0px;
+	}
+}
 /* min-width: MEDIUM */
 
 @media screen and (min-width: 992px) {
@@ -11,5 +22,11 @@
 	section.main-header .menu-inline li a {
 		display: inline-block;
 		visibility: visible;
+	}
+
+	/* HERO */
+
+	.hero .col-xs-12 {
+		/* padding-right: 40px; */
 	}
 }
