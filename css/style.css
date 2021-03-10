@@ -637,13 +637,14 @@ section.copy {
 
 .chat {
 	position: fixed;
-	bottom: 15%;
-	left: 10%;
+	bottom: 50px;
+	left: 50px;
 	max-width: 70%;
 	background: #ffffff;
 	padding: 10px;
 	border-radius: 5px;
 	font-size: 16px;
+	min-width: 170px;
 }
 
 .chat::after {
@@ -661,9 +662,10 @@ section.copy {
 
 .shark {
 	position: fixed;
-	bottom: 35%;
-	left: 10%;
-	width: 65px;
+	bottom: 125px;
+	left: 50px;
+	width: 60px;
+	min-width: 50px;
 	background: #016dff;
 	padding: 10px 0px;
 	border-radius: 5px;

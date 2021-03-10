@@ -24,5 +24,20 @@
 		visibility: visible;
 	}
 
-	/* HERO */
+	/* SHARK */
+
+	.chat {
+		position: fixed;
+		bottom: 50px;
+		left: 70%;
+		right: 220px;
+		min-width: 170px;
+	}
+
+	.shark {
+		position: fixed;
+		bottom: 50px;
+		left: 90%;
+		right: 50px;
+	}
 }
