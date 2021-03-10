@@ -446,8 +446,8 @@ section.customers h2 {
 	margin-bottom: 30px;
 }
 
-.customers .row {
-	padding: 0px 15px 0px;
+.customers .row .table {
+	margin-bottom: 40px;
 }
 
 .customers .container .row .col-xs-2,
